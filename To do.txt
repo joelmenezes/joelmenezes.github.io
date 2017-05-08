@@ -1,2 +1,0 @@
-favicon icon 
-change prof pictures on github and stackoverflow
