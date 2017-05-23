@@ -8036,6 +8036,22 @@ button.close {
         display: none!important
     }
 }
+.blog-list{
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+.li-blog{
+    color:black;
+}
+.blog-ul{
+    list-style-type: disc;
+}
 
-
+.verticalLine {
+    padding:40px;
+  border-right: 1px solid #ccc;
+}
+.recent-posts{
+    color:black;
+}
 /*# sourceMappingURL=bootstrap.min.css.map */
