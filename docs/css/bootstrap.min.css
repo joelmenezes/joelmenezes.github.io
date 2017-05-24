@@ -7835,24 +7835,28 @@ button.close {
     th.visible-xs {
         display: table-cell!important
     }
+    
 }
 
 @media (max-width:767px) {
     .visible-xs-block {
         display: block!important
     }
+    
 }
 
 @media (max-width:767px) {
     .visible-xs-inline {
         display: inline!important
     }
+    
 }
 
 @media (max-width:767px) {
     .visible-xs-inline-block {
         display: inline-block!important
     }
+    
 }
 
 @media (min-width:768px) and (max-width:991px) {
@@ -7869,6 +7873,7 @@ button.close {
     th.visible-sm {
         display: table-cell!important
     }
+    
 }
 
 @media (min-width:768px) and (max-width:991px) {
@@ -7961,6 +7966,9 @@ button.close {
     .hidden-xs {
         display: none!important
     }
+    .vertical-line{
+        display:none!important
+    }
 }
 
 @media (min-width:768px) and (max-width:991px) {
@@ -8049,7 +8057,7 @@ button.close {
 
 .verticalLine {
     padding:40px;
-  border-right: 1px solid #ccc;
+    border-right: 1px solid #ccc;
 }
 .recent-posts{
     color:black;
