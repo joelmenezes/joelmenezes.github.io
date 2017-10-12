@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sequence Alignment Tool</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+	<link rel="shortcut icon" href="logo.png">
+</head>
+
+<body id="page-top" class="index">
+    
+    
+<div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">Sequence Alignment Tool</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    
+					<li class="page-scroll">
+                        <a href="#team">Team</a>
+                    </li>
+					
+					<li class="page-scroll">
+                        <a href="#abstract">Abstract</a>
+                    </li>
+					
+					<li class="page-scroll">
+                        <a href="#plan">Plan of Action</a>
+                    </li>
+                    
+                    <li class="page-scroll">
+                        <a href="#papers">Papers</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container" id="team" tabindex="-1">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <div class="intro-text">
+                        <h1 class="name">Sequence Alignment Tool</h1>
+                        <hr class="star-light">
+                        <span class="skills">Raji Sundararajan, Manoj Hoskeri, Joel Menezes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+	<!-- Introduction Section -->
+    <section class="container" id="abstract">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Abstract</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>In Bioinformatics, a sequence alignment is a way of arranging the sequences of DNA, RNA, or protein to identify regions of similarity that may be a consequence of functional, structural, or evolutionary relationships between the sequences. Our project aims to design and build a user-friendly interactive web application which will facilitate in demonstrating the concepts of sequence alignment.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>Global sequence alignment will be done using the Needleman-Wunsch algorithm and local sequence alignment will be done using Smith-Waterman algorithm. The application will teach the user about the various steps involved in the process of sequence alignment. It will also allow the user to provide answers and inputs. In this manner, the user gets a more hands-on learning experience and makes the overall teaching process more interesting.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<!-- Resume Section -->
+	<section class="success" id="plan">
+        <div class="success">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Plan of Action</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-1">
+					<p> The plan is to build a web application which enables the users to understand sequence alignment techniques in the BioInformatics domain. A brief explanation of the premise of the Needleman-Wunsch algorithm and Smith-Waterman algorithm would be provided with links to more detailed explanations.  
+<br><br>
+We will make use of simple test cases to illustrate the step by step working of the algorithms. Once the user is familiar with how to achieve sequence alignment, the user can try to solve sequence alignment problems on an interactive page. The user can fill up values of the matrix used in the Dynamic programming approach. 
+<br><br>
+Given two sequences of length about 15-20 characters (this is to keep it simple), the application would bring up a matrix indicating rows and columns. The user needs to fill up the matrix entries. Based on the user entries in the matrix, the application would indicate whether the value entered in the cell is correct or not by highlighting the cell with colors green or red. 
+<br><br>
+There will be different levels of solving the problems. The initial levels may have most of the cell values filled up and challenge the user to fill up only a few values. The application would provide certain hints at calculating the next matrix value. As the levels go higher up, the user must enter all the matrix values without any help from the application. 
+<br><br>
+Once the user has completed filling up all the matrix entries, a correctness check would be made and a score would be assigned. The application would display all possible sequence alignments once all the matrix entries are correct. The application will award users with stars based on their achievements and their previous games would be persisted. We could also maintain a leaderboard of the registered users to show the highest scores.
+					</p> 
+					
+				</div>
+				
+				<div class="col-md-3">
+					<p><h3>Workload Distribution:</h3>
+					</br>
+					<h4>Raji</h4> 
+					<h5>Understanding and implementation of sequence alignment techniques: Needleman-Wunsch algorithm and Smith-Waterman algorithm</h5>
+					<br>
+					<h4>Manoj:</h4>  
+					<h5>Design and implementation of the interactive Web UI components</h5>
+					<br>
+					<h4>Joel:</h4>  
+					<h5>Method for checking correctness of the implemented techniques</h5>
+					<h5>Project reporting</h5>
+					</p>
+				</div>   
+            </div>
+        </div>
+    </section>
+
+    <section class="container" id="papers">
+        <div class="Container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>List of Papers</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                	<ul>
+                		<li><p>
+							<strong>Needleman, S. B. and Wunsch, C. D. (1970).</strong> <i>A general method applicable to the search for similarities in the ammo acid sequence of two proteins.</i> <bold>J. Mol. Biol., 48. pp.443-453.</bold>
+						</p></li>
+						<li><p>
+							<strong>Smith, T. and Waterman, M. (1981).</strong> <i>The identification of common molecular subsequences.</i> <bold>J. Mol. Biol., 147. pp.195-197.</bold>
+						</p></li>
+						<li><p>
+							<strong>Smith, T. and Waterman, M. (1981).</strong> <i>Comparison of biosequences. </i> <bold>Advances in Applied Mathematics, 2(4), pp.482-489.</bold>
+						</p></li>
+						<li><p>
+							<strong>Huang, X. (1994).</strong> <i>On global sequence alignment.</i> <bold>Bioinformatics, 10(3), pp.227-235.</bold>
+						</p></li>
+					</ul>
+				</div>  
+            </div>
+        </div>
+    </section>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+	
+	<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-83789621-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+
+</body>
+
+</html>
